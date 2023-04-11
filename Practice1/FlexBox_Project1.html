@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container1 {
+            height: 130px;
+            width: 95%;
+            /* background-color: lawngreen; */
+            display: flex;
+            flex-direction: row;
+            margin: 10px auto;
+        }
+
+        .box1 {
+            background-color: orange;
+            width: 475px;
+            height: 130px;
+            margin: auto;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 3px 14px;
+            box-sizing: border-box;
+            font-weight: bold;
+        }
+
+        .container2 {
+            height: 75px;
+            width: 95%;
+            /* background-color: lawngreen; */
+            display: flex;
+            flex-direction: row;
+            margin: 10px auto;
+        }
+
+        .box2 {
+            background-color: orange;
+            width: 475px;
+            height: 75px;
+            margin: 5px 5px;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 9px 14px;
+            box-sizing: border-box;
+            font-weight: bold;
+        }
+
+        .container3 {
+            height: 75px;
+            width: 95%;
+            /* background-color: lawngreen; */
+            display: flex;
+            flex-direction: row;
+            margin: 10px auto;
+        }
+
+        .box3 {
+            background-color: orange;
+            width: 475px;
+            height: 75px;
+            margin: 10px 5px;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 9px 14px;
+            box-sizing: border-box;
+            font-weight: bold;
+        }
+
+        .sub-container {
+            display: flex;
+            margin: 4px auto;
+        }
+
+        .box4 {
+            height: 25px;
+            width: 95%;
+            background-color: papayawhip;
+            margin: 0px 3px;
+            padding: 5px 2px;
+            border-radius: 5px;
+        }
+
+        .box5 {
+            height: 15px;
+            width: 95%;
+            background-color: papayawhip;
+            margin: 0px 3px;
+            padding: 5px 2px;
+            border-radius: 5px;
+        }
+
+        .box6 {
+            height: 14px;
+            width: 95%;
+            background-color: papayawhip;
+            margin: 0px 3px;
+            padding: 5px 2px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <div class="box1">1
+            <div class="sub-container">
+                <div class="box4">1</div>
+                <div class="box4">2</div>
+                <div class="box4">3</div>
+            </div>
+            <div class="sub-container">
+                <div class="box5">1</div>
+                <div class="box5">2</div>
+                <div class="box5">3</div>
+                <div class="box5">4</div>
+            </div>
+            <div class="sub-container">
+                <div class="box6">1</div>
+                <div class="box6">2</div>
+                <div class="box6">3</div>
+                <div class="box6">4</div>
+                <div class="box6">5</div>
+            </div>
+        </div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+    </div>
+    <div class="container2">
+        <div class="box2">1</div>
+        <div class="box2">2</div>
+        <div class="box2">3</div>
+        <div class="box2">4</div>
+    </div>
+    <div class="container3">
+        <div class="box3">1</div>
+        <div class="box3">2</div>
+        <div class="box3">3</div>
+        <div class="box3">4</div>
+        <div class="box3">5</div>
+    </div>
+</body>
+
+</html>

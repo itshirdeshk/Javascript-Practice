@@ -1,0 +1,14 @@
+{
+  "name": "hirdesh",
+  "version": "1.0.0",
+  "description": "We Created a Package while studying Node and Javascript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hirdesh Khandelwal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

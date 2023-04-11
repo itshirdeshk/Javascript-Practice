@@ -1,0 +1,20 @@
+{
+  "name": "practice2",
+  "version": "1.0.0",
+  "description": "This is the best package ever build by someone",
+  "main": "Javascript1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Awesome"
+  ],
+  "author": "Hirdesh",
+  "license": "ISC",
+  "dependencies": {
+    "slugify": "^1.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
